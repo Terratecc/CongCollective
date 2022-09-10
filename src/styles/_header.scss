@@ -1,0 +1,24 @@
+.nc-MainNav1 {
+  &.notOnTop {
+    @apply bg-white dark:bg-neutral-900 backdrop-blur-2xl bg-opacity-70 dark:bg-opacity-60 shadow-sm dark:border-b dark:border-neutral-700;
+  }
+
+
+}
+
+.btn-pink {
+  background: #ed71b6;
+  align-items: center;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.5rem;
+  transition: 0.3ms ease-in-out;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  &:hover{
+    background: #ec5099;
+  }
+}
